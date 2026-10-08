@@ -83,9 +83,8 @@ class MainWindow(QMainWindow):
         """
         
         self.btn_new = QPushButton("📄 New")
-        self.btn_new.setStyle(btn_style)
-        self.btn_new.clicked.connect(self.new_project)
         self.btn_new.setStyleSheet(btn_style)
+        self.btn_new.clicked.connect(self.new_project)
         left_layout.addWidget(self.btn_new)
         
         self.btn_open = QPushButton("📂 Open")
