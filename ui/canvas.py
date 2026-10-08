@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from PyQt5.QtWidgets import QGraphicsView, QGraphicsScene, QGraphicsEllipseItem, QGraphicsLineItem, QGraphicsTextItem, QMenu
 from PyQt5.QtCore import Qt, QPointF, QLineF, QTimer
-from PyQt5.QtGui import QColor, QPen, QBrush, QFont, QCursor, QPolygonF
+from PyQt5.QtGui import QColor, QPen, QBrush, QFont, QCursor, QPolygonF, QPainter
 from models.device import DeviceType, Device, DEVICE_COLORS, DEVICE_LABELS
 from models.link import Link
 from models.project import Project
