@@ -111,7 +111,7 @@ class NetworkCanvas(QGraphicsView):
         
         self.scene_obj = QGraphicsScene(0, 0, 1600, 1000)
         self.setScene(self.scene_obj)
-        self.setRenderHint(self.RenderHint.Antialiasing)
+        self.setRenderHint(QPainter.Antialiasing)
         
         self.device_items = {}
         self.link_items = {}
